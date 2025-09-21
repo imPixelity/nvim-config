@@ -1,6 +1,9 @@
 -- Leader
 vim.g.mapleader = " "
 
+-- Explorer
+vim.keymap.set("n", "<leader>pv", ":Ex<CR>")
+
 -- Window navigation
 vim.keymap.set("n", "<C-h>", "<C-w>h")
 vim.keymap.set("n", "<C-j>", "<C-w>j")
