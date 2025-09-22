@@ -1,6 +1,3 @@
--- Leader
-vim.g.mapleader = " "
-
 -- Explorer
 vim.keymap.set("n", "<leader>pv", ":Ex<CR>")
 
@@ -25,3 +22,6 @@ vim.keymap.set("n", "N", "Nzzzv")
 
 -- Clear highlight
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
+
+-- Yank behavior
+vim.keymap.set("n", "Y", "yy")
